@@ -1,15 +1,16 @@
 import Vuex from 'vuex';
 import Vue, { VueConstructor } from 'vue';
-import iView from 'iview';
+/* tslint:disable:no-var-requires */
+const iView = require('iview');
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faShapes, faImage, faICursor } from '@fortawesome/free-solid-svg-icons';
 /* tslint:disable:no-var-requires */
 const fontawesome = require('@fortawesome/vue-fontawesome');
 
-export default function initVue(Vue: VueConstructor<Vue>) {
-  Vue.use(Vuex);
-  Vue.use(iView);
+export default function initVue(vue: VueConstructor<Vue>) {
+  vue.use(Vuex);
+  vue.use(iView);
   library.add(faShapes, faImage, faICursor);
-  Vue.component('fa', fontawesome.FontAwesomeIcon);
+  vue.component('fa', fontawesome.FontAwesomeIcon);
 }

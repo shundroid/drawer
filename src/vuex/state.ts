@@ -1,7 +1,7 @@
 import PageMode from '@/lib/pageMode';
 
 export interface RootState {
-  pageMode: PageMode
+  pageMode: PageMode;
 }
 
 const state: RootState = {
