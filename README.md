@@ -1,6 +1,6 @@
 # drawer
 
-Master: ![](https://travis-ci.com/shundroid/drawer.svg?branch=master)
+Master: ![](https://travis-ci.com/shundroid/drawer.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/shundroid/drawer/badge.svg?branch=master)](https://coveralls.io/github/shundroid/drawer?branch=master)
 
 ## Project setup
 ```
