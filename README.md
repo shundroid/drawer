@@ -1,5 +1,7 @@
 # drawer
 
+Master: ![](https://travis-ci.com/shundroid/drawer.svg?branch=master)
+
 ## Project setup
 ```
 yarn install
