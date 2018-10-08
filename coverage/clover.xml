@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1537507542796" clover="3.2.0">
-  <project timestamp="1537507542796" name="All files">
-    <metrics statements="46" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3" elements="52" coveredelements="29" complexity="0" loc="46" ncloc="46" packages="4" files="7" classes="7">
+<coverage generated="1538985184666" clover="3.2.0">
+  <project timestamp="1538985184666" name="All files">
+    <metrics statements="77" coveredstatements="47" conditionals="8" coveredconditionals="2" methods="9" coveredmethods="6" elements="94" coveredelements="55" complexity="0" loc="77" ncloc="77" packages="5" files="13" classes="13">
       <package name="src">
         <metrics statements="17" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <file name="App.vue" path="C:\Users\shund\Documents\drawer\src\App.vue">
@@ -22,6 +22,12 @@
           <line num="9" count="0" type="stmt"/>
           <line num="11" count="0" type="stmt"/>
         </file>
+        <file name="shims-tsx.d.ts" path="C:\Users\shund\Documents\drawer\src\shims-tsx.d.ts">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="shims-vue.d.ts" path="C:\Users\shund\Documents\drawer\src\shims-vue.d.ts">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
         <file name="store.ts" path="C:\Users\shund\Documents\drawer\src\store.ts">
           <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
           <line num="1" count="0" type="stmt"/>
@@ -32,7 +38,7 @@
         </file>
       </package>
       <package name="src.components">
-        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="37" coveredstatements="27" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <file name="dHeader.vue" path="C:\Users\shund\Documents\drawer\src\components\dHeader.vue">
           <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="17" count="1" type="stmt"/>
@@ -46,34 +52,80 @@
           <line num="34" count="3" type="stmt"/>
         </file>
         <file name="dPage.vue" path="C:\Users\shund\Documents\drawer\src\components\dPage.vue">
+          <metrics statements="21" coveredstatements="11" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="25" count="4" type="stmt"/>
+          <line num="30" count="4" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="34" count="2" type="stmt"/>
+          <line num="41" count="2" type="stmt"/>
+          <line num="43" count="2" type="stmt"/>
+          <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="63" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="dRect.vue" path="C:\Users\shund\Documents\drawer\src\components\dRect.vue">
           <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="7" count="1" type="stmt"/>
-          <line num="8" count="1" type="stmt"/>
-          <line num="9" count="1" type="stmt"/>
-          <line num="10" count="1" type="stmt"/>
-          <line num="13" count="9" type="stmt"/>
-          <line num="15" count="1" type="stmt"/>
-          <line num="17" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="18" count="12" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
         </file>
       </package>
       <package name="src.lib">
-        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <file name="initVue.ts" path="C:\Users\shund\Documents\drawer\src\lib\initVue.ts">
           <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+        </file>
+        <file name="pageMode.ts" path="C:\Users\shund\Documents\drawer\src\lib\pageMode.ts">
+          <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.mixins">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="dShape.ts" path="C:\Users\shund\Documents\drawer\src\mixins\dShape.ts">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="2" type="stmt"/>
-          <line num="4" count="2" type="stmt"/>
-          <line num="6" count="2" type="stmt"/>
-          <line num="7" count="2" type="stmt"/>
-          <line num="9" count="2" type="stmt"/>
-          <line num="11" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
           <line num="12" count="2" type="stmt"/>
-          <line num="13" count="2" type="stmt"/>
-          <line num="14" count="2" type="stmt"/>
-          <line num="15" count="2" type="stmt"/>
         </file>
       </package>
       <package name="src.vuex">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="mutations.ts" path="C:\Users\shund\Documents\drawer\src\vuex\mutations.ts">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+        </file>
         <file name="state.ts" path="C:\Users\shund\Documents\drawer\src\vuex\state.ts">
           <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="0" type="stmt"/>

@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header ref="a">
     <div>Drawer</div>
     <button id="shapesButton" @click="clickShapes" :class="shapesButtonClass">
       <fa icon="shapes" />
